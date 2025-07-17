@@ -1,0 +1,53 @@
+# ------------------------------------
+# Basic Site Info
+# ------------------------------------
+title: "Dimitris Konomis"
+name: "Dimitris Konomis"
+description: "Applied Mathematician, Computer Scientist, Quantitative Researcher"
+url: "https://dkonomis.github.io"
+baseurl: ""  # Leave empty for GitHub Pages root
+
+# ------------------------------------
+# Author Info
+# ------------------------------------
+author: dkonomis
+
+# ------------------------------------
+# Theme & Plugins
+# ------------------------------------
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: default  # Can be "dark", "air", etc.
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-include-cache
+
+# ------------------------------------
+# Build Settings
+# ------------------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /blog/page:num/
+
+# ------------------------------------
+# MathJax (for LaTeX support)
+# ------------------------------------
+mathjax: true
+
+# ------------------------------------
+# Navigation (defined separately)
+# ------------------------------------
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
