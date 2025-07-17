@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Bio"
+    url: "/bio/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Courses"
+    url: "/courses/"
+  - title: "Blog"
+    url: "/blog/"

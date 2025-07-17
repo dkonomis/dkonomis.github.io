@@ -16,7 +16,8 @@ author: dkonomis
 # Theme & Plugins
 # ------------------------------------
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: default  # Can be "dark", "air", etc.
+minimal_mistakes_skin: dark  # Can be "dark", "air", etc.
+enable_theme_toggle: true
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -25,6 +26,10 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-include-cache
+
+show_sidebar: true
+sidebar:
+  nav: "main"
 
 # ------------------------------------
 # Build Settings
